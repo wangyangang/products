@@ -94,18 +94,15 @@ MYSQL_HOST = '127.0.0.1'
 MYSQL_PORT = 3306
 MYSQL_DBNAME = 'trc_canada_products'
 MYSQL_USER = 'root'
-MYSQL_PASSWORD = '456wyg31'
+MYSQL_PASSWORD = '456wyg'
+
 RETRY_ENABLED = True
 RETRY_TIMES = 100
 
-AUTOTHROTTLE_ENABLED = True
-# The initial download delay
-AUTOTHROTTLE_START_DELAY = 0.8
-# The maximum download delay to be set in case of high latencies
-AUTOTHROTTLE_MAX_DELAY = 10
-# The average number of requests Scrapy should be sending in parallel to
-# each remote server
-AUTOTHROTTLE_TARGET_CONCURRENCY = 60.0
+# AUTOTHROTTLE_ENABLED = True
+# AUTOTHROTTLE_START_DELAY = 0.8
+# AUTOTHROTTLE_MAX_DELAY = 10
+# AUTOTHROTTLE_TARGET_CONCURRENCY = 60.0
 
 CONCURRENT_REQUESTS = 60
 
